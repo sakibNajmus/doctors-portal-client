@@ -1,0 +1,29 @@
+.header-container {
+    height:800px;
+    position:relative;
+    background-image: url('../../../resources/images/chairbg.png');
+    background-size: cover;
+}
+.header-container::after{
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* width: 30%; */
+    right: 0;
+    background-image: linear-gradient(45deg, transparent 55%, #3a4256 45%);
+    /* background-color: #3a4256; */
+    z-index: -50;
+}
+
+.main-btn{
+    background-color: #1cc7c1;
+    border: none;
+}
+
+.main-btn:hover{
+    background-color: #3a4256;
+    border: none;
+    color: white;
+}
